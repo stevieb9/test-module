@@ -1,4 +1,4 @@
-package Test::Module;
+package Acme::STEVEB;
 
 use strict;
 use warnings;
@@ -12,12 +12,7 @@ __END__
 
 =head1 NAME
 
-Test::Module - One line description
-
-=for html
-<a href="https://github.com/stevieb9/test-module/actions"><img src="https://github.com/stevieb9/test-module/workflows/CI/badge.svg"/></a>
-<a href='https://coveralls.io/github/stevieb9/test-module?branch=master'><img src='https://coveralls.io/repos/stevieb9/test-module/badge.svg?branch=master&service=github' alt='Coverage Status' /></a>
-
+Acme::STEVEB - One line description
 
 =for html
 <a href="https://github.com/stevieb9/test-module/actions"><img src="https://github.com/stevieb9/test-module/workflows/CI/badge.svg"/></a>
