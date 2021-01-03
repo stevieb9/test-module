@@ -19,11 +19,6 @@ Test::Module - One line description
 <a href='https://coveralls.io/github/stevieb9/test-module?branch=master'><img src='https://coveralls.io/repos/stevieb9/test-module/badge.svg?branch=master&service=github' alt='Coverage Status' /></a>
 
 
-=for html
-<a href="https://github.com/stevieb9/test-module/actions"><img src="https://github.com/stevieb9/test-module/workflows/CI/badge.svg"/></a>
-<a href='https://coveralls.io/github/stevieb9/test-module?branch=master'><img src='https://coveralls.io/repos/stevieb9/test-module/badge.svg?branch=master&service=github' alt='Coverage Status' /></a>
-
-
 =head1 SYNOPSIS
 
 =head1 DESCRIPTION
@@ -44,11 +39,11 @@ I<Returns>: C<0> upon success.
 
 =head1 AUTHOR
 
-Steve, C<< <steveb at cpan.org> >>
+Steve Bertrand, C<< <steveb at cpan.org> >>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2020 Steve.
+Copyright 2021 Steve Bertrand.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the the Artistic License (2.0). You may obtain a

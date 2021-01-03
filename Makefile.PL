@@ -4,10 +4,10 @@ use warnings;
 use ExtUtils::MakeMaker;
 
 my %WriteMakefileArgs = (
-    NAME             => 'Acme::STEVEB',
-    AUTHOR           => q{Steve <steveb@cpan.org>},
-    VERSION_FROM     => 'lib/Acme/STEVEB.pm',
-    ABSTRACT_FROM    => 'lib/Acme/STEVEB.pm',
+    NAME             => 'Test::Module',
+    AUTHOR           => q{Steve Bertrand <steveb@cpan.org>},
+    VERSION_FROM     => 'lib/Test/Module.pm',
+    ABSTRACT_FROM    => 'lib/Test/Module.pm',
     LICENSE          => 'artistic_2',
     MIN_PERL_VERSION => '5.006',
     META_MERGE => {
@@ -34,7 +34,7 @@ my %WriteMakefileArgs = (
         #'Foo::Bar::Module' => '5.0401',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
-    clean => { FILES => 'Acme-STEVEB-*' },
+    clean => { FILES => 'Test-Module-*' },
 );
 
 # Compatibility with old versions of ExtUtils::MakeMaker
